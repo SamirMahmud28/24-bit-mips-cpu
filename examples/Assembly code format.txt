@@ -1,0 +1,5 @@
+srl, sll -----          $(destination register)   $r0   ($decimal value to shift)
+slt-------               $(destination register - Rs<Rt then 1 otherwise 0)   $Rs(Compare 1)   $Rt(Compare 2)
+sw------                $(Source register)        $r0       (constant memory address)
+lw------                $(destination register)   $r0     (Value to load)
+beq-----               $(Rs)      $(Rt)        4(jump to 4th instruction)
